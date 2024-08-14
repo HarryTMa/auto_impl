@@ -1,6 +1,6 @@
 # auto_impl
 
-Automatically implements functions using ChatGPT.
+Automatically implements functions using the [llm](https://llm.datasette.io/) toolkit.
 
 ## Install
 
@@ -8,11 +8,11 @@ Automatically implements functions using ChatGPT.
 
 ## Usage
 
-Get ChatGPT API key and set it to your environment variable `OPENAI_API_KEY` before run.
+First install `llm`. Follow the instructions from the llm site to set it up. For example, use `llm keys set openai` to set up a ChatGPT API key and `llm "Ten fun names for a pet pelican"` to test it.
 
 ### @auto
 
-Syntax:
+Usage:
 
 ```python
 @auto($prompt)
