@@ -18,7 +18,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = ["openai"]
+dependencies = ["llm"]
 
 [project.urls]
 "Homepage" = "https://github.com/HarryTMa/auto_impl"
