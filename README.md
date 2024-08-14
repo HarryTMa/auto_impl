@@ -4,7 +4,7 @@ Automatically implements functions using ChatGPT.
 
 ## Install
 
-    pip install curl_cffi --upgrade
+    pip install auto_impl --upgrade
 
 ## Usage
 
