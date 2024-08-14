@@ -1,0 +1,27 @@
+[project]
+name = "auto_impl"
+version = "0.1.0"
+authors = [
+  { name="Harry T. Ma", email="harrymaofshs@gmail.com" },
+]
+description = "Automatically implements functions using ChatGPT."
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["openai"]
+
+[project.urls]
+"Homepage" = "https://github.com/HarryTMa/auto_impl"
+"repository" = "https://github.com/HarryTMa/auto_impl"
+"Bug Tracker" = "https://github.com/HarryTMa/auto_impl/issues"
+
