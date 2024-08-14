@@ -1,6 +1,6 @@
 [project]
 name = "auto_impl"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Harry T. Ma", email="harrymaofshs@gmail.com" },
 ]

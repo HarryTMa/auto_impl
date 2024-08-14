@@ -69,7 +69,7 @@ def auto(prompt: str, save_generated_code: bool = True):
                     if save_generated_code:
                         filename = code.co_filename + '.gpt-generated.py'
                         with open(filename, 'a' if filename in _gpt_generated_files else 'w', encoding='utf8') as f:
-                            f.write('@gpt(')
+                            f.write('@auto(')
                             f.write(repr(prompt))
                             f.write(')\n')
                             f.write(response)
